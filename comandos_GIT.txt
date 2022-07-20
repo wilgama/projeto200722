@@ -1,0 +1,25 @@
+===================================
+Inicie o Git e adicione o repositório.
+=====================================
+git init ==> Local
+git remote add origin https://github.com/wilgama/teste_remoto.git ==> Remoto
+=================================
+Adicionar os arquivos, "commitar" e "pushar".
+============================================
+git add .
+git commit -m "meu primeiro commit"
+git push -u origin master
+==================================
+atualizar repositorios
+=========================
+git fetch
+git merge
+=========== atualizar remoto x local ====
+git fetch
+git pull
+==============================================
+Vamos remover o repositório
+==========================================
+git remote remove origin
+
+criar arquivo ==> Adiciona ao STAGE(area de revisao) ==> Commitamos(enviar para repositorio)
